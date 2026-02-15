@@ -1,33 +1,40 @@
-baseURL = "https://ddpseguros.com.ar/"
-languageCode = "es-ar"
-title = "DDP Seguros"
+baseURL = "https://dante71ar.github.io/ddpseguros-hugo/"
+relativeURLs = false
+canonifyURLs = false
 theme = "PaperMod"
-enableRobotsTXT = true
+
+
 
 [params]
-  defaultTheme = "light"
-  ShowReadingTime = false
-  ShowShareButtons = false
-  disableThemeToggle = true
+defaultTheme = "auto"
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
 
 [menu]
-  [[menu.main]]
-    name = "Vida"
-    url = "/vida/"
-    weight = 10
-  [[menu.main]]
-    name = "Ahorro"
-    url = "/vida/ahorro-capitalizacion/"
-    weight = 20
-  [[menu.main]]
-    name = "Patrimoniales"
-    url = "/patrimoniales/"
-    weight = 30
-  [[menu.main]]
-    name = "FAQ"
-    url = "/faq/"
-    weight = 40
-  [[menu.main]]
-    name = "Contacto"
-    url = "/contacto/"
-    weight = 50
+[[menu.main]]
+name = "Vida"
+url = "/vida/"
+weight = 10
+
+[[menu.main]]
+name = "Ahorro"
+url = "/ahorro/"
+weight = 20
+
+[[menu.main]]
+name = "Patrimoniales"
+url = "/patrimoniales/"
+weight = 30
+
+[[menu.main]]
+name = "FAQ"
+url = "/faq/"
+weight = 40
+
+[[menu.main]]
+name = "Contacto"
+url = "/contacto/"
+weight = 50
