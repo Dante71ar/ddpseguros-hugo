@@ -1,0 +1,33 @@
+baseURL = "https://ddpseguros.com.ar/"
+languageCode = "es-ar"
+title = "DDP Seguros"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+  defaultTheme = "light"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  disableThemeToggle = true
+
+[menu]
+  [[menu.main]]
+    name = "Vida"
+    url = "/vida/"
+    weight = 10
+  [[menu.main]]
+    name = "Ahorro"
+    url = "/vida/ahorro-capitalizacion/"
+    weight = 20
+  [[menu.main]]
+    name = "Patrimoniales"
+    url = "/patrimoniales/"
+    weight = 30
+  [[menu.main]]
+    name = "FAQ"
+    url = "/faq/"
+    weight = 40
+  [[menu.main]]
+    name = "Contacto"
+    url = "/contacto/"
+    weight = 50
